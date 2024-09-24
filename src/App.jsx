@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import AppointmentForm from "./components/AppointmentForm";
+import Blogs from "./components/Blogs";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <HeroSection />
         <FeatureSection />
         <Workflow />
-        <Pricing />
+        <Blogs />
         <Testimonials />
         
         <div className="text-center mt-16">

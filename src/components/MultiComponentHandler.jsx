@@ -1,11 +1,11 @@
 import React from 'react';
 import Appointment from './AppointmentForm';
-import Pricing from './Pricing';
+import Maps from './Maps';
 
 const MultiComponentHandler = () => {
   return (
     <div>
-      <Pricing />
+      <Maps />
       <Appointment />
     </div>
   );

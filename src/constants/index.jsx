@@ -15,46 +15,46 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 export const navItems = [
   { label: "¿Quiénes Somos?", href: "/features" },
   { label: "Servicios", href: "/workflow" },
-  { label: "Blogs", href: "/pricing" },
+  { label: "Blogs", href: "/blogs" },
   { label: "Valoraciones", href: "/testimonials" },
 ];
 
 export const testimonials = [
   {
     user: "John Doe",
-    company: "Stellar Solutions",
+    company: "Customer",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Estoy muy satisfecho con el servicio recibido. El equipo fue muy atento, profesional y me brindó resultados que superaron mis expectativas.",
   },
   {
     user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    company: "Customer",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "No podría estar más contenta con el tratamiento. La creatividad y la habilidad para resolver problemas del equipo fueron claves para lograr una sonrisa perfecta.",
   },
   {
     user: "David Johnson",
-    company: "Quantum Innovations",
+    company: "Customer",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Trabajar con este consultorio fue un placer. La atención a los detalles y el compromiso con la excelencia son realmente destacables. Lo recomiendo a todos.",
   },
   {
     user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    company: "Customer",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "El equipo del consultorio fue un cambio total para mi tratamiento dental. Su atención al detalle y soluciones innovadoras ayudaron a mejorar mi salud bucal rápidamente.",
   },
   {
     user: "Michael Wilson",
-    company: "Visionary Creations",
+    company: "Customer",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Estoy asombrado por el nivel de profesionalismo y dedicación del equipo. Lograron superar mis expectativas y brindarme resultados increíbles.",
   },
   {
     user: "Emily Davis",
-    company: "Synergy Systems",
+    company: "Customer",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "El equipo se esforzó al máximo para asegurar el éxito de mi tratamiento. Su experiencia y dedicación no tienen comparación. ¡Sin duda, volveré en el futuro!",
   },
 ];
 
@@ -100,33 +100,33 @@ export const features = [
 export const checklistItems = [
   {
     title: "Tratamientos de profilaxis",
-    description:
-      "XXXXXXXXXXX.",
+    description: "Limpieza dental profunda para prevenir caries y mantener una salud bucal óptima.",
+    link: "BlogProfilaxis"
   },
   {
     title: "Restauraciones",
-    description:
-      "XXXXXXXXXXX.",
+    description: "Reparación de piezas dañadas mediante empastes y otros procedimientos para devolver la funcionalidad.",
+    link: "BlogRestauraciones"
   },
   {
     title: "Tratamientos protésicos",
-    description:
-      "XXXXXXXXXXX.",
+    description: "Colocación de prótesis dentales que reemplazan dientes perdidos y mejoran la estética.",
+    link: "BlogProtesicos"
   },
   {
     title: "Endodoncia",
-    description:
-      "XXXXXXXXXXX.",
+    description: "Tratamiento de conductos para eliminar infecciones y salvar dientes dañados.",
+    link: "BlogEndodoncia"
   },
   {
     title: "Ortodoncia",
-    description:
-      "XXXXXXXXXXX.",
+    description: "Corrección de malposiciones dentales mediante brackets y alineadores para una sonrisa alineada.",
+    link: "BlogOrtodoncia"
   },
   {
     title: "Aclaramiento dental",
-    description:
-      "XXXXXXXXXXX.",
+    description: "Blanqueamiento profesional para mejorar el color de los dientes y lograr una sonrisa más brillante.",
+    link: "BlogAclaramiento"
   },
 ];
 
