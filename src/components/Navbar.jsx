@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="hidden lg:flex justify-center space-x-4 items-center">
 
             <a
-              href="https://www.facebook.com"
+              href="http://localhost:3000/Consultorio/index.php"
               target="_blank"
               rel="noopener noreferrer"
               className="py-2 px-3 border rounded-md font-semibold"
